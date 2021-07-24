@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="shortcut icon" href="./assets/imgs/genk32.webp" type="image/x-icon">
+    <title>Genk Clone</title>
+</head>
+<body>
+    
+    <header class="header">
+        <ul class="header-list">
+            <li class="header-item"><a href="http://gamek.vn/" class="header-item__link" target="_blank" title="Kênh thông tin mới nhất về Game trong nước và thế giới">GAMEK</a></li>
+            <li class="header-item"><a href="http://kenh14.vn/" class="header-item__link" target="_blank" title="Kênh tin tức giải trí - Xã hội">KENK14</a></li>
+            <li class="header-item"><a href="http://cafebiz.vn/" class="header-item__link" target="_blank" title="CafeBiz - Thông tin kinh doanh - Doanh nhân">CAFEBIZ</a></li>
+        </ul>
+    </header>
+
+    <nav class="navbar">
+        <div class="navbar-content">
+            <div class="nav-list__left">
+                <a href="#" class="navbar-logo"><img src="./assets/imgs/logo.png" alt="" class="navbar-logo__img"></a>
+                <ul class="navbar-list">
+                    <li class="navbar-item "><a href="" class="navbar-item__link navbar-item__link--active">mobile</a></li>
+                    <li class="navbar-item"><a href="" class="navbar-item__link">tin ict</a></li>
+                    <li class="navbar-item"><a href="" class="navbar-item__link">internet</a></li>
+                    <li class="navbar-item"><a href="" class="navbar-item__link">khám phá</a></li>
+                    <li class="navbar-item navbar-hambuger"><a href="" class="navbar-item__link"><i class="navbar-item__link-icon fas fa-bars"></i></a></li>
+                    <div class="nav-sublist grid">
+                        <div class="row wide">
+                            <div class="col col-2">
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">Mobile</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                                
+                                <div class="sublist-item">Điện thoại</div>
+                                <div class="sublist-item">Máy tính bảng</div>
+                            </div>
+                            <div class="col col-2">
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">INTERNET</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                                <div class="sublist-item">Digital Marketing</div>
+                                <div class="sublist-item">Digital Marketing</div>
+                            </div>
+                            <div class="col col-2">
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">KHÁM PHÁ</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                                
+                                <div class="sublist-item">Lịch sử</div>
+                                <div class="sublist-item">Tri thức</div>
+                            </div>
+                            <div class="col col-2">
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">INTERNET</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                                <div class="sublist-item">Tản mạn</div>
+                                <div class="sublist-item">Ý tưởng sáng tạo</div>
+                            </div>
+                            <div class="col col-2">
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">TIN ICT</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">THỦ THUẬT</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">Sống</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">EMAGAZINE</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                            <div class="col col-2">
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">APPS - GAMES</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">ĐỒ CHƠI SỐ</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                                <div class="sublist-header">
+                                    <h1 class="sublist-header__text">VIDEO</h1>
+                                    <i class="sublist-header__icon fas fa-chevron-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="nav-list__left">
+                <input type="checkbox" hidden name="check_btn" id="check2show-search-input">
+                <ul class="navbar-list">
+                    <li class="navbar-item"><a href="" class="navbar-item__link">video</a></li>
+                    <input type="text" id="nav-search-input" class="search-input" placeholder="Nhập nội dung tìm kiếm ...">
+                    <li class="navbar-item"><label for="check2show-search-input" class="navbar-label"><i class="navbar-item__link-icon fas fa-search"></i></label></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main -->
+    <main class="main-content">
+        <!-- breadcumb -->
+        <div class="breadcumb">
+            <div class="breadcumb-list wide">
+                <a href="#" class="breadcumb-link breadcumb-link--active"><h1 class="breadcumb-link__header">Mobile</h1></a>
+                <a href="#" class="breadcumb-link"><h1 class="breadcumb-link__header">Điện thoại</h1></a>
+                <a href="#" class="breadcumb-link"><h1 class="breadcumb-link__header">Máy tính bảng</h1></a>
+            </div>
+        </div>
+        <!-- Content -->
+        <div class="content-container">
+            <div class="top-section">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col col-6">
+                            <div class="content-item">
+                                <div class="content-item__thumbnail"><img src="./assets/imgs/photo1627035394558-16270353946451592766476.webp" class="content-item__thumbnail-img"></img></div> 
+                                <a href="#" class="content-item__link content-item__link--large">Galaxy A22 5G chính thức lên kệ: Smartphone 5G rẻ nhất của Samsung, giá 6.3 triệu đồng</a>
+                            </div>
+
+                            <div class="content-list">
+                                <ul class="content-item__list">
+                                    <li class="content-item__item"><a href="#" class="content-item__link content-item__link--small">OnePlus Nord 2 5G ra mắt: Dimensity 1200, camera 50MP OIS, sạc nhanh 65W, giá từ 8.7 triệu đồng</a></li>
+                                    <li class="content-item__item"><a href="#" class="content-item__link content-item__link--small">Đánh giá OnePlus Nord CE 5G: Nâng cấp hình ảnh và hiệu năng, camera tạm ổn nhưng lại trở về với loa đơn</a></li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="col col-3">
+                            <div class="content-item">
+                                <div class="content-item__thumbnail"><img src="https://genk.mediacdn.vn/zoom/260_162/139269124445442048/2021/7/23/photo1627027799299-16270277996821529921706.jpeg" class="content-item__thumbnail-img"></img></div> 
+                                <a href="#" class="content-item__link content-item__link--medium">POCO F3 GT ra mắt: Dimensity 1200, có phím trigger để chơi game, sạc nhanh 67W, giá từ 8.4 triệu đồng</a>
+                            </div>
+    
+                            <div class="content-item content-item--type-3">
+                                <div class="grid">
+                                    <div class="row row-s">
+                                        <div class="col col-s col-4">
+                                            <div class="content-item__thumbnail"><img src="https://genk.mediacdn.vn/zoom/260_162/139269124445442048/2021/7/23/photo1627027799299-16270277996821529921706.jpeg" class="content-item__thumbnail-img"></img></div> 
+                                        </div>
+                                        <div class="col col-s col-8">
+                                            <a href="#" class="content-item__link content-item__link--small content-item__link--align-h">OnePlus Nord 2 5G ra mắt: Dimensity 1200, camera 50MP OIS, sạc nhanh 65W, giá từ 8.7 triệu đồng</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="content-item content-item--type-3 content-item--last">
+                                <div class="grid">
+                                    <div class="row row-s">
+                                        <div class="col col-s col-4">
+                                            <div class="content-item__thumbnail"><img src="https://genk.mediacdn.vn/zoom/80_50/139269124445442048/2021/7/22/photo1626922985743-1626922985949199845368.jpg" class="content-item__thumbnail-img"></img></div> 
+                                        </div>
+                                        <div class="col col-s col-8">
+                                            <a href="#" class="content-item__link content-item__link--small content-item__link--align-h">OPPO Reno phiên bản thứ 6: chú tắc kè hoa biến hoá đa dạng bậc nhất thị trường smartphone</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                        </div>
+                        <div class="col col-3"></div>
+                    </div>
+                </div>
+            </div>
+            <!-- mid section -->
+            <div class="mid-section">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col col-6">
+                        <div class="main-content-list">
+                            
+                                <div class="content-item content-item--type-2">
+                                    <div class="grid">
+                                        <div class="row row-m">
+                                            <div class="col col-m col-6">
+                                                <div class="content-item__thumbnail"><img src="https://genk.mediacdn.vn/zoom/260_162/pr/2021/photo-1-16270939052111027300525-36-0-898-1380-crop-1627093930316-63762729756080.jpg" class="content-item__thumbnail-img"></img></div> 
+                                            </div>
+                                            <div class="col col-m col-6">
+                                                <a href="#" class="category-item">Sống</a>
+                                                <a href="#" class="content-item__link content-item__link--medium content-item__link--align-h">Shopee Mall triển khai chương trình Khách Hàng Thân Thiết nhằm gia tăng mức độ gắn kết của khách hàng với thương hiệu</a>
+                                                <span class="content-short-desc">Giờ đây, các thương hiệu trên Shopee Mall và Shopee Premium sẽ có thêm nhiều công cụ để tiếp cận khách hàng theo hướng cá nhân hóa....</span>
+                                                <span class="content-created-date">3 giờ trước</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-item content-item--type-2">
+                                    <div class="grid">
+                                        <div class="row row-m">
+                                            <div class="col col-m col-6">
+                                                <div class="content-item__thumbnail"><img src="https://genk.mediacdn.vn/zoom/260_162/139269124445442048/2021/7/24/photo1627099208326-16270992087022025068114.gif" class="content-item__thumbnail-img"></img></div> 
+                                            </div>
+                                            <div class="col col-m col-6">
+                                                <a href="#" class="category-item">Mobile</a>
+                                                <a href="#" class="content-item__link content-item__link--medium content-item__link--align-h">Trên tay Lokmat Appllp Max: Smartwatch “siêu to khổng lồ” chạy Android, có 4G, cấu hình “ngon”, đánh game phà phà</a>
+                                                <span class="content-short-desc">Lokmat Appllp Max phải gọi là “smartphone mini đội lốt smartwatch khổng lồ” mới đúng.</span>
+                                                <span class="content-created-date">3 giờ trước</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-item content-item--type-2">
+                                    <div class="grid">
+                                        <div class="row row-m">
+                                            <div class="col col-m col-6">
+                                                <div class="content-item__thumbnail"><img src="https://genk.mediacdn.vn/zoom/260_162/pr/2021/photo-1-1627015001967953166245-48-0-697-1038-crop-1627015022586-63762650468106.jpg" class="content-item__thumbnail-img"></img></div> 
+                                            </div>
+                                            <div class="col col-m col-6">
+                                                <a href="#" class="category-item">Mobile</a>
+                                                <a href="#" class="content-item__link content-item__link--medium content-item__link--align-h">Máy lọc không khí và khẩu trang giúp giảm nguy cơ tiếp xúc với virus SARS-Covi 2 qua đường không khí.</a>
+                                                <span class="content-short-desc">Một nghiên cứu mới đây đã chỉ ra rằng việc sử dụng kết hợp máy lọc không khí có màng lọc HEPA và khẩu trang có thể giảm nguy cơ lây...</span>
+                                                <span class="content-created-date">23 giờ trước</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-item content-item--type-2">
+                                    <div class="grid">
+                                        <div class="row row-m">
+                                            <div class="col col-m col-6">
+                                                <div class="content-item__thumbnail"><img src="https://genk.mediacdn.vn/zoom/260_162/139269124445442048/2021/7/22/photo1626944283842-16269442839971848262020.jpg" class="content-item__thumbnail-img"></img></div> 
+                                            </div>
+                                            <div class="col col-m col-6">
+                                                <a href="#" class="category-item">Mobile</a>
+                                                <a href="#" class="content-item__link content-item__link--medium content-item__link--align-h">iPhone SE 2022 chạy chip Apple A14 Bionic sẽ ra mắt vào nửa đầu năm 2022?</a>
+                                                <span class="content-short-desc">Apple dự kiến sẽ tung ra loạt iPhone 13 vào tháng 9 năm nay. Ngày ra mắt chắc chắn không còn xa. Nhưng bên cạnh đó tin rò rỉ về các...</span>
+                                                <span class="content-created-date">2 ngày trước</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="content-item content-item--type-2 content-item--last">
+                                    <div class="grid">
+                                        <div class="row row-m">
+                                            <div class="col col-m col-6">
+                                                <div class="content-item__thumbnail"><img src="https://genk.mediacdn.vn/zoom/260_162/139269124445442048/2021/7/20/photo1626768866200-1626768866290729670312.jpg" class="content-item__thumbnail-img"></img></div> 
+                                            </div>
+                                            <div class="col col-m col-6">
+                                                <a href="#" class="category-item">Mobile</a>
+                                                <a href="#" class="content-item__link content-item__link--medium content-item__link--align-h">Đánh giá OnePlus Nord CE 5G: Nâng cấp hình ảnh và hiệu năng, camera tạm ổn nhưng lại trở về với loa đơn</a>
+                                                <span class="content-short-desc">Với giá bán cao hơn sản phẩm Nord N10 5G đi trước khoảng 2 triệu Đồng, Nord CE 5G đem tới một vài ưu điểm nhưng lại có một nhược...</span>
+                                                <span class="content-created-date">2 ngày trước</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+                    </div>
+
+                    <div class="col col-3">
+                        <div class="mid-section__sidebar">
+                                <div class="content-item content-item--border-solid"> 
+                                    <a href="#" class="content-item__link content-item__link--small content-item__link--uppercase content-item__link--text-color content-item__link--bold">Điện thoại</a>
+                                </div>
+
+                                <div class="content-item content-item---pt-5">
+                                    <div class="content-item__thumbnail"><img src="./assets/imgs/photo1627035394558-16270353946451592766476.webp" class="content-item__thumbnail-img"></img></div> 
+                                    <a href="#" class="content-item__link content-item__link--small">Đây là Realme Pad, máy tính bảng đầu tay của Realme</a>
+                                    <span class="content-short-desc">Galaxy A22 5G hiện đang là chiếc smartphone 5G có giá thành rẻ nhất của Samsung tại thị trường Việt Nam.</span>
+                                </div>
+                                
+                                <div class="content-item content-item---pt-5">
+                                    <a href="#" class="content-item__link content-item__link--smaller">POCO F3 GT ra mắt: Dimensity 1200, có phím trigger để chơi game, sạc nhanh 67W, giá từ 8.4 triệu đồng</a>
+                                </div>
+
+                                <div class="content-item content-item---pt-5 content-item--last">
+                                    <a href="#" class="content-item__link content-item__link--smaller">OnePlus Nord 2 5G ra mắt: Dimensity 1200, camera 50MP OIS, sạc nhanh 65W, giá từ 8.7 triệu đồng</a>
+                                </div>
+
+                                <!-- May tinh bang -->
+                                <div class="content-item content-item--border-solid"> 
+                                    <a href="#" class="danh-muc content-item__link content-item__link--small content-item__link--uppercase content-item__link--text-color content-item__link--bold">Máy tính bảng</a>
+                                </div>
+
+                                <div class="content-item content-item---pt-5">
+                                    <div class="content-item__thumbnail"><img src="https://genk.mediacdn.vn/zoom/235_143/139269124445442048/2021/7/20/photo1626718349181-16267183498491094076203.jpeg" class="content-item__thumbnail-img"></img></div> 
+                                    <a href="#" class="content-item__link content-item__link--small">Galaxy A22 5G chính thức lên kệ: Smartphone 5G rẻ nhất của Samsung, giá 6.3 triệu đồng</a>
+                                    <span class="content-short-desc">Realme Pad sở hữu thiết kế được lấy cảm hứng khá nhiều từ iPad Pro của Apple.</span>
+                                </div>
+                                
+                                <div class="content-item content-item---pt-5">
+                                    <a href="#" class="content-item__link content-item__link--smaller">Mở hộp Galaxy Tab S7 FE: Thiết kế vẫn cao cấp, có thêm màu Xanh Mint trẻ trung, cấu hình rút gọn, có kết nối 5G, giá 13.9 triệu đồng</a>
+                                </div>
+
+                                <div class="content-item content-item---pt-5 content-item--last">
+                                    <a href="#" class="content-item__link content-item__link--smaller">Samsung chính thức ra mắt máy tính bảng Galaxy Tab S7 FE tại Việt Nam: Rút gọn một vài cấu hình, tính năng cốt lõi vẫn giữ nguyên, giá gần 14 triệu đồng</a>
+                                </div>
+
+                                <!-- Doc nhieu -->
+                                <div class="content-item content-item--border-solid"> 
+                                    <a href="#" class="danh-muc content-item__link content-item__link--small content-item__link--uppercase content-item__link--text-color content-item__link--bold">Đọc nhiều</a>
+                                </div>
+
+                                <div class="content-item content-item---pt-5 content-item--last">
+                                    <div class="content-item__thumbnail"><img src="https://genk.mediacdn.vn/zoom/235_143/139269124445442048/2020/5/9/photo1589033090521-15890330910061834207251.jpg" class="content-item__thumbnail-img"></img></div> 
+                                    <a href="#" class="content-item__link content-item__link--small">Facebook và YouTube ráo riết tìm kiếm và xóa sổ một đoạn video thuyết âm mưu mang tên “Plandemic”</a>
+                                    <span class="content-short-desc">Đoạn clip dài 25 phút này hiện có hơn 1,8 triệu lượt xem và 150.000 lượt chia sẻ trên Facebook.</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </div>
+        
+
+    </main>
+
+</body>
+</html>
